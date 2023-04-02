@@ -16,7 +16,7 @@ app.set("view engine", "ejs");
 
 
 //Creating our database
-mongoose.connect("mongodb+srv://admin-suyash:Suyash123@cluster0.6qiszv7.mongodb.net/todolistDB");
+mongoose.connect("/todolistDB");
 
 
 //Creating our schema
